@@ -1,10 +1,21 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
+		"Base16 Color Schemes",
+		"BracketHighlighter",
 		"CMake",
 		"Djaneiro",
+		"Emmet",
+		"Gist",
+		"GitGutter",
 		"LESS",
+		"SideBarEnhancements",
+		"SideBarGit",
 		"SublimeCodeIntel",
-		"Theme - Soda"
+		"Terminal",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
 	]
 }
