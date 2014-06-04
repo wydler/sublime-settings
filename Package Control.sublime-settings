@@ -5,6 +5,7 @@
 		"Base16 Color Schemes",
 		"BracketHighlighter",
 		"CMake",
+		"Colorsublime",
 		"Djaneiro",
 		"Emmet",
 		"Gist",
@@ -17,6 +18,9 @@
 		"Theme - Flatland",
 		"Theme - Moka",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Theme - Soda SolarizedDark",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"Vala"
 	]
 }

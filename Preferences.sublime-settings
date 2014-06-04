@@ -1,7 +1,37 @@
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
+	"color_scheme": "Packages/User/Colorsublime/themes/Snappy.tmTheme",
 	"draw_white_space": "all",
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
 	"font_face": "Source Code Pro",
 	"font_options": "subpixel_antialias",
 	"font_size": 9,
@@ -11,11 +41,13 @@
 	[
 		"Vintage"
 	],
+	"index_files": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"scroll_past_end": true,
 	"tab_completion": false,
