@@ -3,21 +3,53 @@
         "debug": false,
         "delay": 0.25,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Koloria/Koloria.gutter-theme",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Blueberry/round/Blueberry - round.gutter-theme",
         "gutter_theme_excludes": [],
-        "lint_mode": "load/save",
+        "lint_mode": "background",
         "linters": {
+            "cppcheck": {
+                "@disable": false,
+                "args": [],
+                "enable": "style",
+                "excludes": [],
+                "std": []
+            },
+            "cpplint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "filter": ""
+            },
             "pep8": {
                 "@disable": false,
                 "args": [],
                 "excludes": [],
-                "ignore": "",
+                "ignore": [
+                    "E501"
+                ],
                 "max-line-length": null,
                 "select": ""
+            },
+            "pyflakes": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "pylint": {
+                "@disable": false,
+                "args": [],
+                "disable": [
+                    "C0301"
+                ],
+                "enable": "",
+                "excludes": [],
+                "paths": [],
+                "rcfile": "",
+                "show-codes": true
             }
         },
-        "mark_style": "squiggly underline",
-        "no_column_highlights_line": false,
+        "mark_style": "stippled underline",
+        "no_column_highlights_line": true,
         "paths": {
             "linux": [],
             "osx": [],
